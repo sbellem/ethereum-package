@@ -1,0 +1,3 @@
+[submodule "prof-relay"]
+	path = prof-relay
+	url = https://github.com/prof-project/prof-relay.git
