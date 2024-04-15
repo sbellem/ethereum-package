@@ -39,6 +39,7 @@ participants:
       labels: {}
     blobber_enabled: false
     blobber_extra_params: []
+
 network_params:
   network_id: "3151908"
   deposit_contract_address: "0x4242424242424242424242424242424242424242"
@@ -71,7 +72,7 @@ global_client_log_level: info
 snooper_enabled: false
 ethereum_metrics_exporter_enabled: false
 parallel_keystore_generation: false
-mev_type: full-gramine
+mev_type: null
 mev_params:
   mev_relay_image: flashbots/mev-boost-relay
   mev_relay_api_extra_args: []
